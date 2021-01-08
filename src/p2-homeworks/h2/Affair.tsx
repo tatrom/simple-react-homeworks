@@ -1,5 +1,6 @@
 import React from "react";
 import { AffairType } from "./HW2";
+import s from './Affairs.module.css'
 
 type AffairPropsType = {
     affair: AffairType
@@ -9,9 +10,9 @@ type AffairPropsType = {
 function Affair(props: AffairPropsType) {
     const deleteCallback = () => {props.deleteAffairCallback(props.affair._id)};// need to fix
     return (
-        <div>
+        <div className={s.affair}>
             title: {props.affair.name} priority: {props.affair.priority}
-            <button onClick={deleteCallback}>X</button>
+            <button onClick={deleteCallback} className={s.button}>X</button>
         </div>
     );
 }
