@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ysimple-react-homeworksY/static/css/main.dc632054.chunk.css",
+    "main.js": "/Ysimple-react-homeworksY/static/js/main.44f1246c.chunk.js",
+    "main.js.map": "/Ysimple-react-homeworksY/static/js/main.44f1246c.chunk.js.map",
+    "runtime-main.js": "/Ysimple-react-homeworksY/static/js/runtime-main.19b2fb3e.js",
+    "runtime-main.js.map": "/Ysimple-react-homeworksY/static/js/runtime-main.19b2fb3e.js.map",
+    "static/js/2.293186c8.chunk.js": "/Ysimple-react-homeworksY/static/js/2.293186c8.chunk.js",
+    "static/js/2.293186c8.chunk.js.map": "/Ysimple-react-homeworksY/static/js/2.293186c8.chunk.js.map",
+    "index.html": "/Ysimple-react-homeworksY/index.html",
+    "precache-manifest.a6a5fba50e19aba81c527a2e83be274e.js": "/Ysimple-react-homeworksY/precache-manifest.a6a5fba50e19aba81c527a2e83be274e.js",
+    "service-worker.js": "/Ysimple-react-homeworksY/service-worker.js",
+    "static/css/main.dc632054.chunk.css.map": "/Ysimple-react-homeworksY/static/css/main.dc632054.chunk.css.map",
+    "static/js/2.293186c8.chunk.js.LICENSE.txt": "/Ysimple-react-homeworksY/static/js/2.293186c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19b2fb3e.js",
+    "static/js/2.293186c8.chunk.js",
+    "static/css/main.dc632054.chunk.css",
+    "static/js/main.44f1246c.chunk.js"
+  ]
+}
