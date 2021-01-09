@@ -1,7 +1,28 @@
 .default {
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #c7c487;
+    padding: 5px;
 
 }
 
 .red {
     background: red;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.default:hover {
+    transform: scale(1.1);
+    color: #fff;
+    border-color: #fff;
+}
+
+.default:active {
+    opacity: .5;
+}
+
+.test_button {
+    margin-top: 10px;
 }

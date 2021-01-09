@@ -19,7 +19,7 @@ function HW4() {
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked);
 
     return (
-        <div>
+        <div className={s.container}>
             <hr/>
             homeworks 4
 
@@ -35,8 +35,9 @@ function HW4() {
 
                 {/*should work (должно работать)*/}
                 <SuperButton
-                    red // пропсу с булевым значением не обязательно указывать true
+                    // red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
+                    className={s.test_button}
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
@@ -46,7 +47,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                     children element {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}

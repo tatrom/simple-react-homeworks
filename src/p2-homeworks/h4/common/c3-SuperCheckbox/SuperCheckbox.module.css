@@ -1,7 +1,9 @@
 .checkbox {
-
+    border-color: #0b76ef;
 }
-
+.checkbox:checked {
+    opacity: .5;
+}
 .spanClassName {
 
 }
