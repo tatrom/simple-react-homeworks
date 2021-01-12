@@ -3,16 +3,16 @@
 }
 
 .error {
-    background-color: #89e0c5;
+    background-color: #a4ad79;
     outline: none;
-    border: 2px solid mediumvioletred;
+    border: 2px solid red;
     border-radius: 15px;
     margin: 10px;
     padding: 5px;
 }
 
 .input {
-    background-color: #89e0c5;
+    background-color: #a4ad79;
     outline: none;
     border: 1px solid #fff;
     border-radius: 15px;
@@ -21,17 +21,17 @@
 }
 
 .button {
-    background-color: #89e0c5;
+    background-color: #a4ad79;
     outline: none;
     border-radius: 15px;
     margin: 10px;
     border: 1px solid #fff;
     padding: 5px;
-    color: #11635d;
+    color: #000;
 }
 
 .greetingContainer {
-    background-color: #d5e8e2;
+    background-color: #d7e0ad;
     position: relative;
     padding: 40px 10px 40px 10px;
     color: #11635d;
@@ -50,6 +50,6 @@
     left: 30px;
     bottom: 10px;
     font-size: 20px;
-    color: mediumvioletred;
+    color: red;
 
 }

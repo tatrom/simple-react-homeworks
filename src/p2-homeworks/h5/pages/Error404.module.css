@@ -1,0 +1,21 @@
+.errorContainer {
+    margin: 250px auto;
+    display: block;
+    width: 400px;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+
+
+}
+
+.errorCode {
+    font-size: 200px;
+}
+
+.errorText {
+    font-size: 40px;
+}
+
+.errorImg {
+    font-family: "Roboto", sans-serif;
+}
