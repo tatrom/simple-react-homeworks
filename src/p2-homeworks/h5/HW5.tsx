@@ -6,7 +6,6 @@ import {BrowserRouter, HashRouter} from "react-router-dom";
 function HW5() {
     console.log("hello roman")
     return (
-        // <BrowserRouter>
         <div>
             {/*в gh-pages лучше работает HashRouter*/}
             <HashRouter>
@@ -16,7 +15,6 @@ function HW5() {
 
             </HashRouter>
         </div>
-        // </BrowserRouter>
     );
 }
 
