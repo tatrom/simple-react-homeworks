@@ -1,17 +1,21 @@
-.blue {
+.blue
+{
     border-bottom: 5px solid blue;
 }
 
-.column {
+.column
+{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
-.test_button {
+.test_button
+{
     margin-top: 5px;
 }
 
-.container {
+.container
+{
     background-color: #d7e0ad;
 }

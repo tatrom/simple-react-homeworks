@@ -1,47 +1,59 @@
-.modal {
-    padding: 20px 20px 20px 20px;
+.modal
+{
     position: absolute;
     top: 10px;
     left: 30vh;
-    text-decoration: none;
-    background-color: #a4ad79;
-    border-radius: 15px 15px 15px 15px;
-    transform: scale(0);
-    opacity: 0;
+
+    padding: 20px 20px 20px 20px;
+
     transition: .5s;
-
-}
-
-.active {
-    opacity: 1;
-    transform: scale(1);
-}
-
-.button {
+    transform: scale(0);
     text-decoration: none;
-    color: #000;
-    background-color: #878c6c;
-    border-radius: 10px;
+
+    opacity: 0;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #a4ad79;
+}
+
+.active
+{
+    transform: scale(1);
+
+    opacity: 1;
+}
+
+.button
+{
     margin: 10px;
     padding: 3px;
+
+    text-decoration: none;
+
+    color: #000;
     border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #878c6c;
 }
 
-.button:hover {
+.button:hover
+{
     color: #fff;
     border: 1px solid #fff;
 }
 
-.button:active {
+.button:active
+{
     opacity: .5;
 }
 
-.close_button {
+.close_button
+{
     position: absolute;
     top: 3px;
     left: 3px;
-    padding: 3px 5px;
+
     margin: 0;
+    padding: 3px 5px;
+
     outline: none;
 }
-

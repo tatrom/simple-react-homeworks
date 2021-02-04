@@ -1,15 +1,13 @@
 import React, {useState} from "react";
 import Affairs from "./Affairs";
 
-export type AffairPriorityType = {
-    priority: "low" | "middle" |"high"
-}
+export type AffairPriorityType = "low" | "middle" |"high"
 export type AffairType = {
     _id: number
     name: string
     priority: string
 }
-export type FilterType = "all" | "high" | "middle" | "low"
+export type FilterType = "all" | AffairPriorityType
 
 // constants
 const defaultAffairs: Array<AffairType> = [
