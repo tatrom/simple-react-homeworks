@@ -42,7 +42,7 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     className ? finalStyles = `${s.super_radio} ${className}` : finalStyles = s.super_radio
     return (
         <div className={finalStyles}>
-            {mappedOptions}d
+            {mappedOptions}
         </div>
     );
 }
