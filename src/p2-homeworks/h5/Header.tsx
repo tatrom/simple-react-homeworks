@@ -9,7 +9,6 @@ function Header() {
             <Modal active={modalActive} setActive={setModalActive}/>
             <button className={s.open_button} onClick={() => setModalActive(!modalActive)}> open modal window</button>
             Pages
-
         </div>
     );
 }
