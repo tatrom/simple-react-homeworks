@@ -28,8 +28,6 @@ function HW10() {
         setTimeout(CallDispatch, 5000)
         console.log("loading...");
     };
-    console.log(loading)
-    debugger;
     return (
         <div className={s.container}>
             <hr/>

@@ -36,7 +36,6 @@ function Clock() {
     }
 
     const stringTime = date && date.toLocaleTimeString(); // fix with date
-    console.log(stringTime)
     const stringDate = date && formattedDate(date) // fix with date
     return (
         <div className={s.clock}>
