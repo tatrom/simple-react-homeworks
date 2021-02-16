@@ -1,0 +1,12 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: center;
+}
+
+.container > * {
+    margin: 3px;
+}

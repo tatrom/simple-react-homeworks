@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {homeWorkReducer} from "./bll/homeWorkReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import s from './HW8.module.css'
 
 export type PeopleType = {
     _id: number
@@ -30,8 +31,7 @@ function HW8() {
     const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "down"}))
     const check = () => setPeople(homeWorkReducer(initialPeople, {type: "check", payload: 18}))
     return (
-        <div>
-            <hr/>
+        <div className={s.container}>
             homeworks 8
 
             {/*should work (должно работать)*/}
