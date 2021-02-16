@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import s from './Clock.module.css'
 
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0);
@@ -8,43 +9,53 @@ function Clock() {
 
     const stop = () => {
         // stop
+        clearInterval(timerId)
     }
+
     const start = () => {
         stop();
         const id: number = window.setInterval(() => {
             // setDate
+            setDate(new Date);
         }, 1000);
         setTimerId(id);
     }
 
     const onMouseEnter = () => {
         // show
+        setShow(true)
     };
     const onMouseLeave = () => {
         // close
+        setShow(false)
     };
 
-    const stringTime = "Time"; // fix with date
-    const stringDate = "Date"; // fix with date
+    function formattedDate(d: Date) {
+        return [d.getDate(), d.getMonth() + 1, d.getFullYear()]
+            .map(n => n < 10 ? `0${n}` : `${n}`).join('.');
+    }
 
+    const stringTime = date && date.toLocaleTimeString(); // fix with date
+    console.log(stringTime)
+    const stringDate = date && formattedDate(date) // fix with date
     return (
-        <div>
-            <div
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
+        <div className={s.clock}>
+            <div className={stringTime && s.time}
+                 onMouseEnter={onMouseEnter}
+                 onMouseLeave={onMouseLeave}
             >
                 {stringTime}
             </div>
 
             {show && (
-                <div>
+                <div className={s.date}>
                     {stringDate}
                 </div>
             )}
-
-            <SuperButton onClick={start}>start</SuperButton>
-            <SuperButton onClick={stop}>stop</SuperButton>
-
+            <div className={s.buttons}>
+                <SuperButton onClick={start}>start</SuperButton>
+                <SuperButton onClick={stop}>stop</SuperButton>
+            </div>
         </div>
     );
 }
