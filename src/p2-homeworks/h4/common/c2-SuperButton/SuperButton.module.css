@@ -1,28 +1,50 @@
-.default {
-    outline: none;
+.button {
     border: 1px solid #000;
     border-radius: 15px;
-    background-color: #c7c487;
-    padding: 5px;
-
-}
-
-.red {
-    background: red;
     outline: none;
-    border: 1px solid #000;
-    border-radius: 15px;
 }
-.default:hover {
+
+.button:hover {
     transform: scale(1.1);
+
     color: #fff;
     border-color: #fff;
 }
 
-.default:active {
+.button:active {
     opacity: .5;
 }
 
-.test_button {
-    margin-top: 10px;
+.error {
+    border: 1px solid #000;
+    border-radius: 15px;
+    outline: none;
+    background: red;
+}
+
+.green {
+    background-color: green;
+}
+
+
+.dark {
+    color: #000;
+    background: #fff;
+}
+
+.dark:hover {
+    color: #000;
+}
+
+.purple {
+    background: rebeccapurple;
+    color: yellow;
+}
+
+.pink {
+    background: deeppink;
+}
+
+.red {
+    background: indianred;
 }

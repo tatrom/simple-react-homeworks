@@ -1,68 +1,80 @@
-.container {
-    background-color: gold;
+.container
+{
     display: flex;
     flex-direction: row;
 }
 
-.containerMessage {
-    position: relative;
-    background-color: #000;
-    color: #fff;
+.containerMessage
+{
     font-size: 16px;
-    border-radius: 7px 7px 7px 0;
-    padding: 5px 50px 10px 10px;
+
+    position: relative;
+
     height: 53.5px;
     margin-top: 13px;
     margin-bottom: 8px;
+    padding: 5px 50px 10px 10px;
+
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+    background-color: #000;
 }
 
-.avatar {
-    border-radius: 30px;
+.avatar
+{
     width: 70px;
     height: 70px;
     margin-top: 11px;
     margin-right: 10px;
     margin-left: 10px;
+
+    border-radius: 30px;
 }
-.containerMessage:before{
-    position:absolute;
-    content:"";
-    left:-5px;
-    top:53px;
-    width:5px;
-    height:15px;
+.containerMessage:before
+{
+    position: absolute;
+    top: 53px;
+    left: -5px;
+
+    width: 5px;
+    height: 15px;
+
+    content: '';
+
+    border-right: 10px solid #000;
+    border-bottom: 1px solid #000;
     border-bottom-right-radius: 15px;
-    border-right:10px solid #000;
-    border-bottom:1px solid #000000;
 }
-.containerMessage:after{
-    position:absolute;
-    content:"";
-    left:-4px;
-    top:66px;
-    width:6px;
-    height:2px;
-    background-color: #000;
+.containerMessage:after
+{
+    position: absolute;
+    top: 66px;
+    left: -4px;
+
+    width: 6px;
+    height: 2px;
+
+    content: '';
+
+    border-right: 8px solid #000;
+    border-bottom: 1px solid #000;
     border-top-left-radius: 25px;
-    border-right:8px solid #000;
-    border-bottom:1px solid #000000;
+    background-color: #000;
 }
 
 
-.name {
+.name
+{
     color: #906296;
 }
 
-.message {
 
-}
 
-.time {
-    color: #2e2d2e;
+.time
+{
     position: absolute;
     right: 8px;
     bottom: 5px;
+
+    color: #2e2d2e;
 }
-
-
-

@@ -38,6 +38,7 @@ function HW4() {
                     // red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
                     className={s.test_button}
+                    red={error === "error"}
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
@@ -47,7 +48,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                     children element {/*// этот текст попадёт в children*/}
+                    children element {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}

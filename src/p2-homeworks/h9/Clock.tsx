@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import s from './Clock.module.css'
 
@@ -13,13 +13,18 @@ function Clock() {
     }
 
     const start = () => {
-        stop();
         const id: number = window.setInterval(() => {
             // setDate
-            setDate(new Date);
+            setDate(new Date());
         }, 1000);
         setTimerId(id);
     }
+    useEffect(() => {
+
+        return () => {
+            clearInterval(timerId)
+        }
+    }, [timerId])
 
     const onMouseEnter = () => {
         // show

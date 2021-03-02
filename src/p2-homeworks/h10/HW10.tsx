@@ -12,16 +12,12 @@ function HW10() {
     const loading = useSelector<AppStoreType, LoadingReducerType>(store => store.loading.loadStatus)
     const dispatch = useDispatch()
 
-    function sayHi() {
-        console.log('hello')
-    }
 
     const setLoading = () => {
 
         dispatch(LoadingAC(!loading))
 
         function CallDispatch() {
-            debugger
             dispatch(LoadingAC(false))
         }
 

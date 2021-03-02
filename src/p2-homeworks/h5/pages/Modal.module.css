@@ -1,5 +1,4 @@
-.modal
-{
+.modal {
     position: absolute;
     top: 10px;
     left: 30vh;
@@ -13,17 +12,16 @@
     opacity: 0;
     border-radius: 15px 15px 15px 15px;
     background-color: #a4ad79;
+    border: 1px solid #fff;
 }
 
-.active
-{
+.active {
     transform: scale(1);
 
     opacity: 1;
 }
 
-.button
-{
+.button {
     margin: 10px;
     padding: 3px;
 
@@ -35,19 +33,16 @@
     background-color: #878c6c;
 }
 
-.button:hover
-{
+.button:hover {
     color: #fff;
     border: 1px solid #fff;
 }
 
-.button:active
-{
+.button:active {
     opacity: .5;
 }
 
-.close_button
-{
+.close_button {
     position: absolute;
     top: 3px;
     left: 3px;
@@ -56,4 +51,24 @@
     padding: 3px 5px;
 
     outline: none;
+}
+
+.dark {
+    background: #3f4742;
+}
+
+.purple {
+    background: #706394;
+}
+
+.red {
+    background: #b55b7a;
+}
+
+.pink {
+    background: #e65e8d;
+}
+
+.green {
+    background: #458058;
 }

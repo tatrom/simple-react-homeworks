@@ -1,6 +1,7 @@
 import React, { KeyboardEvent, Dispatch, SetStateAction} from "react";
 import s from "./Greeting.module.css";
 import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 type GreetingPropsType = {
     name: string
@@ -49,7 +50,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                             onKeyPress={OnKeyPressHandler}
                             className={inputClass} />
             <span className={s.errorText}>{error}</span>
-            <button className={s.button} onClick={OnClickHandler}>add</button>
+            <SuperButton className={s.button} onClick={OnClickHandler}>add</SuperButton>
             <span>{totalUsers}</span>
         </div>
     );

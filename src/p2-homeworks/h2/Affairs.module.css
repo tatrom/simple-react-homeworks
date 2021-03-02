@@ -1,56 +1,69 @@
 
-
-.affairs {
-    padding: 10px 0;
+.affairs
+{
     font-family: 'Roboto', sans-serif;
+
+    padding: 10px 0;
 }
 
-.affair {
-    background-color: #d7e0ad;
-    border: 1px solid #000;
-    width: 500px;
-    margin: 10px;
-    border-radius: 15px;
+.affair
+{
     position: relative;
+
+    margin: 10px;
     padding: 10px;
-    padding-right: 70px
+    padding-right: 70px;;
+
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #d7e0ad;
 }
 
-.button {
-    background-color: #a4ad79;
-    border: 1px solid #000000;
-    border-radius: 30px;
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
+.button
+{
     position: absolute;
     top: 11%;
     right: 10px;
+
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+    border: 1px solid #000;
+    border-radius: 30px;
     outline: none;
+    background-color: #a4ad79;
 }
 
-.button:active {
+.button:active
+{
     opacity: .5;
 }
-.button:hover {
+
+.button:hover
+{
     transform: scale(1.1);
 }
 
-.filterButton {
-    background-color: #a4ad79;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    margin-left: 10px;
-    outline: none;
-    margin: 10px;
+.filterButton
+{
     width: 60px;
+    margin: 10px;
+    margin-left: 10px;
+    padding: 5px;
+
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: none;
+    background-color: #a4ad79;
 }
 
-.filterButton:active {
+.filterButton:active
+{
     opacity: .5;
 }
 
-.filterButton:hover {
+.filterButton:hover
+{
     transform: scale(1.1);
 }

@@ -1,13 +1,11 @@
 .menu {
-    padding:15px;
-    border-radius: 0  0 10px 10px;
-    background-color: #d7e0ad;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
     font-size: 17px;
     position: relative;
 }
 
 .open_button {
-    background-color: #a4ad79;
     outline: none;
     margin: 10px;
     padding: 5px;
@@ -25,4 +23,24 @@
 
 .open_button:active {
     opacity: .5;
+}
+
+.dark {
+    background-color: #999797;
+}
+
+.pink {
+    background: #eb7f7f;
+}
+
+.red {
+    background: #910000;
+}
+
+.green {
+    background: #346b49;
+}
+
+.purple {
+    background: purple;
 }

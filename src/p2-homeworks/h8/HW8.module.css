@@ -1,12 +1,16 @@
-.container {
+.container
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+
     width: 300px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+
     text-align: left;
-    align-content: center;
 }
 
-.container > * {
+.container > *
+{
     margin: 3px;
 }

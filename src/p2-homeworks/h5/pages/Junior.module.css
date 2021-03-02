@@ -1,3 +1,5 @@
 .junior {
-    background-color: #d7e0ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

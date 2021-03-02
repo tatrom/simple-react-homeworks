@@ -1,0 +1,5 @@
+.junior_plus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

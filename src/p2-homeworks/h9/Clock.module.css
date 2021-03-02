@@ -1,41 +1,53 @@
-.clock {
-    width: 200px;
-    border: 1px solid grey;
-    margin: 20px;
+.clock
+{
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
-    border-radius: 14px;
-    margin: 0 auto;
-}
 
-.time {
-    width: 100px;
-    border: 1px solid grey;
-    background-color: #a4ad79;
-    border-radius: 14px;
-    /*margin: 0 auto;*/
-}
-
-.date {
-    transition-duration: 1s;
-    width: 100px;
-    border: 1px solid grey;
-    background-color: #a4ad79;
-    border-radius: 14px;
-    /*margin: 0 auto;*/
-}
-
-.buttons {
     width: 200px;
-    margin: 10px;
+    margin: 20px;
+    margin: 0 auto;
+    padding: 20px;
+
+    text-align: center;
+
+    border: 1px solid grey;
+    border-radius: 14px;
+}
+
+.time
+{
+    width: 100px;
+
+    border: 1px solid grey;
+    border-radius: 14px;
+    background-color: #a4ad79;
+    /*margin: 0 auto;*/
+}
+
+.date
+{
+    width: 100px;
+
+    transition-duration: 1s;
+
+    border: 1px solid grey;
+    border-radius: 14px;
+    background-color: #a4ad79;
+    /*margin: 0 auto;*/
+}
+
+.buttons
+{
     display: flex;
     justify-content: space-around;
+
+    width: 200px;
+    margin: 10px;
 }
 
-.buttons > * {
+.buttons > *
+{
     padding: 5px;
 }
